@@ -9,7 +9,7 @@ program fibonacci
                 !        real :: fib, x
                 !end function fib
                 
-                recursive function fibo(x) result(fibon)
+                recursive function fibo(x) result(fibon) ! heck
                         integer, dimension(2) :: fibon
                         integer, dimension(2) :: ab
                         integer :: x, c, d, e, k
